@@ -1,0 +1,36 @@
+{
+    "jma_version": "integer",
+    "frame_count": "integer",
+    "frame_rate": "integer",
+    "actor_names_index": "integer",
+    "actor_names": "string",
+    "node_count": "integer",
+    "node_checksum": "integer",
+    "nodes": [
+        {
+            "node_name": "string",
+            "first_child_node_index": "integer",
+            "next_sibling_node_index": "integer"
+        }
+    ],
+    "keyframes": [
+        {
+            "node_translation": [
+                {
+                    "x": "number",
+                    "y": "number",
+                    "z": "number"
+                }
+            ],
+            "node_rotation": [
+                {
+                    "i": "number",
+                    "j": "number",
+                    "k": "number",
+                    "w": "number"
+                }
+            ],
+            "node_scale": "number"
+        }
+    ]
+}
