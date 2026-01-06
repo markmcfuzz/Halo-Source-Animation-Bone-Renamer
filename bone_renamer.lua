@@ -19,7 +19,7 @@ local SUPPORTED_EXTENSIONS = {".JMA", ".JMM", ".JMO", ".JMR", ".JMT", ".JMW", ".
 
 -- Function to print usage information
 local function print_usage()
-    print("Dynamic Bone Renamer for Animation Files")
+    print("Bone Renamer for Animation Files")
     print("Usage: luajit dynamic_bone_renamer.lua <prefix>")
     print("")
     print("Arguments:")
@@ -205,9 +205,9 @@ end
 
 -- Main function
 local function main()
-    print("========================================")
-    print("Dynamic Bone Renamer for Animation Files")
-    print("========================================")
+    print("================================")
+    print("Bone Renamer for Animation Files")
+    print("================================")
     print("")
 
     -- Check command line arguments
